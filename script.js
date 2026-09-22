@@ -324,7 +324,7 @@ function getCVHtml() {
         <h2 style="font-family: var(--font-serif); font-size: 1.5rem; color: var(--text-primary);">Whitney-Nelly Makafui Adzah</h2>
         <p style="color: var(--text-gold); font-weight: 600;">Cybersecurity Analyst & Computer Science / Engineering Student</p>
         <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
-          Greater Accra, Ghana • whit.adzah@gmail.com • +233 59 378 2822 • github.com/Whit-crypt
+          Greater Accra, Ghana • whit.adzah@gmail.com • +233 59 951 1936 • github.com/Whit-crypt
         </p>
       </div>
 
@@ -352,6 +352,27 @@ function getCVHtml() {
 
 function getContactHtml() {
   return `
+    <div style="margin-bottom: 20px; padding: 14px; background: var(--bg-card-inner); border: 1px solid var(--border-subtle); border-radius: 12px; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px;">
+      <a href="tel:+233599511936" style="display: flex; align-items: center; gap: 10px; color: var(--text-primary); text-decoration: none; font-size: 0.85rem;">
+        <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--bg-card); border: 1px solid var(--border-gold); display: flex; align-items: center; justify-content: center; color: var(--text-gold);">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </span>
+        <div>
+          <div style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Phone / WhatsApp</div>
+          <div style="font-weight: 600; color: var(--text-gold);">+233 59 951 1936</div>
+        </div>
+      </a>
+      <a href="mailto:whit.adzah@gmail.com" style="display: flex; align-items: center; gap: 10px; color: var(--text-primary); text-decoration: none; font-size: 0.85rem;">
+        <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--bg-card); border: 1px solid var(--border-gold); display: flex; align-items: center; justify-content: center; color: var(--text-gold);">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </span>
+        <div>
+          <div style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em;">Direct Email</div>
+          <div style="font-weight: 600; color: var(--text-gold);">whit.adzah@gmail.com</div>
+        </div>
+      </a>
+    </div>
+
     <form id="modal-contact-form" style="display: flex; flex-direction: column; gap: 16px;">
       <div>
         <label style="display: block; font-size: 0.8rem; font-weight: 600; color: var(--text-primary); margin-bottom: 6px;">Your Name</label>
