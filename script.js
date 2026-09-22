@@ -51,13 +51,22 @@ function initNavigation() {
       if (!isVisible) {
         navLinksContainer.style.flexDirection = 'column';
         navLinksContainer.style.position = 'absolute';
-        navLinksContainer.style.top = '76px';
+        navLinksContainer.style.top = '66px';
         navLinksContainer.style.left = '0';
         navLinksContainer.style.width = '100%';
         navLinksContainer.style.background = 'var(--bg-card)';
         navLinksContainer.style.padding = '20px';
         navLinksContainer.style.borderBottom = '1px solid var(--border-subtle)';
+        navLinksContainer.style.boxShadow = '0 12px 28px rgba(0,0,0,0.3)';
       }
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+          navLinksContainer.style.display = 'none';
+        }
+      });
     });
   }
 
