@@ -321,8 +321,8 @@ img {
 }
 
 .hero-name .gold-last {
-  color: var(--text-gold);
-  font-weight: 600;
+  color: inherit;
+  font-weight: inherit;
 }
 
 .hero-subtitle {
